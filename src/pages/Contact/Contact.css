@@ -1,0 +1,67 @@
+.contact {
+  margin-top: 50px;
+}
+
+.contact-title {
+  color: rgb(255, 255, 255);
+  font-family: K2D;
+  font-size: 118.09px;
+  font-weight: 600;
+  line-height: 84.47px;
+  letter-spacing: 5%;
+  text-align: center;
+}
+
+.contact-content {
+  margin-top: 90px;
+  display: flex;
+  gap: 50px;
+}
+
+.contact-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-block > span {
+  color: rgb(255, 255, 255);
+  font-family: K2D;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 84.47px;
+  letter-spacing: 0%;
+}
+
+.contact-block > input {
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background: rgba(73, 33, 33, 0.38);
+  color: #fff;
+  border: 0;
+}
+
+.contact-block > textarea {
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background: rgba(73, 33, 33, 0.38);
+  border: 0;
+  color: #fff;
+}
+
+.contact-btn {
+  margin-top: 20px;
+  border-radius: 50px;
+  backdrop-filter: blur(66px);
+  background: rgb(242, 55, 246);
+  border: 0;
+  color: rgb(245, 245, 245);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+  padding: 10px 20px;
+  cursor: pointer;
+}

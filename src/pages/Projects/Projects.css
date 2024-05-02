@@ -1,0 +1,36 @@
+.projects {
+  margin-top: 30px;
+}
+
+.projects-title {
+  color: rgb(255, 255, 255);
+  font-family: K2D;
+  font-size: 118.09px;
+  font-weight: 600;
+  line-height: 84.47px;
+  letter-spacing: 5%;
+  text-align: right;
+}
+
+.project-content {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects-block > span {
+  color: rgb(255, 255, 255);
+  font-family: K2D;
+  font-size: 39.58px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0%;
+  text-align: center;
+}

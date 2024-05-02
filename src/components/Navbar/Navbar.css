@@ -1,0 +1,57 @@
+.nav {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  border-radius: 50px;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(46, 3, 72) 37%,
+    rgb(8, 1, 69) 100%
+  );
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: K2D;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 52px;
+  letter-spacing: 4%;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 55px;
+}
+
+.nav-menu .nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  top: 35px;
+  left: 5px;
+  border-radius: 50px;
+  background: rgba(242, 55, 246, 0.76);
+}
